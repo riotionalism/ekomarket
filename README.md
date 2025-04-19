@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌱 EcoMarket - Sustainable Community Market Platform
 
-## Getting Started
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://ekomarket-nu.vercel.app/)
+[![GitHub](https://img.shields.io/github/stars/riotionalism/ekomarket?style=social)](https://github.com/riotionalism/ekomarket)
 
-First, run the development server:
+## 🌐 Live Demo
+Check out our live demo at [ekomarket-nu.vercel.app](https://ekomarket-nu.vercel.app/)
+
+## 📋 Overview
+
+EcoMarket is a modern e-commerce platform built with Next.js 14, focusing on sustainable and eco-friendly products. The platform connects local producers with environmentally conscious consumers, promoting sustainable practices and supporting local communities.
+
+## ✨ Features
+
+### 🛍️ For Shoppers
+- **Product Browsing**: Explore sustainable products with detailed information
+- **Category Navigation**: Filter products by eco-friendly categories
+- **Shopping Cart**: Real-time cart management with quantity controls
+- **User Authentication**: Secure login and registration system
+- **Order Management**: Track orders and view order history
+- **Profile Management**: Personalize your shopping experience
+
+### 🌿 Sustainability Focus
+- **Sustainability Scoring**: Products rated on eco-friendliness (1-10)
+- **Eco-friendly Categories**: Including:
+  - Kitchen & Dining
+  - Fashion
+  - Home & Living
+  - Beauty & Personal Care
+  - Garden & Outdoor
+  - Zero Waste
+
+## 🛠️ Technical Stack
+
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI/UX**: 
+  - Framer Motion for animations
+  - Headless UI for accessible components
+  - Heroicons for icons
+- **State Management**: React Context API
+- **Testing**: Jest & React Testing Library
+
+## 🚀 Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/riotionalism/ekomarket.git
+
+# Install dependencies
+cd ekomarket
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Run tests
+npm run test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
+src/
+├── app/ # Next.js app router pages
+├── components/
+│ ├── ui/ # Reusable UI components
+│ ├── shared/ # Shared components
+│ ├── layout/ # Layout components
+│ └── providers/ # Context providers
+├── context/ # Application state management
+├── hooks/ # Custom React hooks
+├── types/ # TypeScript definitions
+└── utils/ # Utility functions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Demo accounts available for testing:
 
-## Learn More
+Regular User:
+Email: user@example.com
+Password: password123
 
-To learn more about Next.js, take a look at the following resources:
+Admin User:
+Email: admin@example.com
+Password: admin123
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Key Features Implementation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Responsive Design**: Mobile-first approach using Tailwind CSS
+- **Cart Management**: Real-time updates with Context API
+- **Authentication**: Secure user sessions with middleware protection
+- **Product Categories**: Easy navigation with filtered views
+- **Checkout Process**: Streamlined purchase flow
+- **Profile Management**: User dashboard with order history
 
-## Deploy on Vercel
+## 🚀 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is deployed on [Vercel](https://ekomarket-nu.vercel.app/), offering:
+- Automatic deployments
+- Edge functions
+- Image optimization
+- API routes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- [@riotionalism](https://github.com/riotionalism)
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/) for the amazing framework
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS
+- [Vercel](https://vercel.com/) for hosting
+- All contributors and supporters of the project
+
+---
+⭐️ If you like this project, please give it a star on [GitHub](https://github.com/riotionalism/ekomarket)!
+
