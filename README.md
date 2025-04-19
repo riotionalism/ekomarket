@@ -30,6 +30,64 @@ EcoMarket is a modern e-commerce platform built with Next.js 14, focusing on sus
   - Garden & Outdoor
   - Zero Waste
 
+## 🔄 User Flow Diagram
+
+![EcoMarket User Flow](./public/user-flow-diagram.png)
+
+### Flow Description
+
+#### 1. Authentication Flow
+- Users start at Landing Page
+- Check User Status
+  - If Not Logged In → Login/Register options
+  - If Logged In → Direct to User Dashboard
+- Login/Register Process:
+  - Login Form or Registration Form
+  - Authentication verification
+  - Success → User Dashboard
+  - Fail → Back to Login/Register
+
+#### 2. Main Dashboard Features
+User Dashboard provides access to:
+- Browse Products
+- Search Products
+- View Categories
+- View Profile
+- View Cart
+
+#### 3. Product Discovery
+- Browse Products → Product List
+- Search Products → Product List
+- View Categories → Category List → Category Products
+- All paths lead to Product Details
+
+#### 4. Profile Management
+View Profile branches into:
+- Personal Info
+- Order History
+- Settings
+
+#### 5. Shopping Flow
+- Product Details → Add to Cart
+- View Cart → Shopping Cart
+- Cart Operations:
+  - Remove Item
+  - Checkout Process
+- Checkout Flow:
+  1. Shipping Details
+  2. Payment Information
+  3. Process Payment
+  4. Order Confirmation
+  5. Order Success
+
+### Color Legend
+- 🔷 Blue: Authentication related flows
+- 🟩 Green: Product and success related flows
+- 🟧 Orange: Cart and checkout related flows
+- ⬜ White: General navigation and user profile
+
+This flow diagram illustrates the complete user journey through the EcoMarket platform, from initial access to order completion. Each step is designed to provide a seamless and intuitive experience while maintaining security and functionality.
+
 ## 🛠️ Technical Stack
 
 - **Framework**: Next.js 14
